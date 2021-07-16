@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    bottom: 0;
+    border: 0;
+    font-family: "Monument Extended";
+}
+body{
+    background-color: white
+}
+.container{
+    max-width: 85%;
+    margin: 0 auto
+}
+
+.nav_light,
+.nav_dark{
+    position: absolute;
+	top: 0;
+	right: 0;
+	padding: 40px 70px 0px 0px;
+	font-size: 20px;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+.nav_light{
+    color: white;
+    opacity: 0;
+}
+.box_switcher{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    background: black;
+    border-radius: 50%;
+    transform:scale(1200px) ;
+    
+}
+
